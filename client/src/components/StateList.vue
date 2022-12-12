@@ -25,7 +25,7 @@ export default  {
     }, 
     methods: {
         fetchAllStates() {
-            this.$stateService.getAllState().then( states => {
+            this.$stateService.getAllStates().then( states => {
                 this.states = states
             })
         }
