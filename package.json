@@ -13,10 +13,8 @@
     "pg": "^8.8.0",
     "sequelize": "^6.26.0",
     "sequelize-cli": "^6.5.2"
-    
   },
   "devDependencies": {
     "sqlite3": "^5.1.2"
-
   }
 }

@@ -2,11 +2,13 @@
 <dive>
   
   <page-header></page-header>
-  <p> Todo - app content </p>
+   
+  <router-view> </router-view>
 
-  <page-footer></page-footer>
+  <page-footer> </page-footer>
   
-  <state-list></state-list>
+  
+
 
 </dive>
 </template>
@@ -16,7 +18,8 @@
 
 import PageHeader from '@/components/PageHeader.vue'
 import PageFooter from './components/PageFooter.vue'
-import StateList from './components/StateList.vue'
+
+
 
 
 export default {
@@ -24,12 +27,12 @@ export default {
   components: {
     PageHeader,
     PageFooter,
-    StateList
+    
    
-  
   }
 }
 </script>
+    
 
 <style>
 #app {
